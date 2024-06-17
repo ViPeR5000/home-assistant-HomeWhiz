@@ -12,3 +12,4 @@ homeassistant-stubs
 types-awscrt
 voluptuous-stubs
 translate
+cryptography>=42.0.8 # not directly required, pinned by Snyk to avoid a vulnerability
